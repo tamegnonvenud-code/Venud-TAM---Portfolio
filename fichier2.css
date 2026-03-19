@@ -1,0 +1,326 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+body.dark .bloc {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+body.dark section {
+  background-color: #111;
+  color: white;
+}
+.menu-list {
+    display: none;
+    padding: 0;
+    list-style: none;
+}
+.menu-list.active{
+    display: block;
+}
+.menu{
+    display: block;
+    background-color:;
+    border: 1px solid;
+
+    margin: 0%;
+}
+header{
+    color:rgb(112, 21, 202);
+}
+
+
+@media(max-width:600px ){
+    nav{
+        flex-direction: colum;
+        display: flex;
+    }
+}
+@media(max-width:900px) {
+    .container{
+        width:95%;
+    }
+}
+
+ input{
+    background-color: rgba(43, 173, 34, 0);
+background: transparent;
+ }
+ textarea{
+    background-color: rgba(3, 48, 0, 0.023);
+    background: transparent;
+ }
+
+h2{
+    font-family:'Times New Roman', Times, serif ;
+    font-style: italic;
+    text-align: center;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(35, 225, 18);
+    font-size: 45px;
+    text-align: center;
+}
+a{
+    font-style: oblique;
+    color: blueviolet;
+}
+
+#intro1{
+    text-align: center;
+    font-size: 24px;
+}
+ #intro2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+body > button {
+    margin: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+body > button:hover {
+    background-color: rgb(116, 31, 196);
+}
+header {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+}
+
+header strong {
+    font-size: 22px;
+    color: blueviolet;
+}
+
+
+.menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none; 
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 220px;
+    padding: 10px;
+}
+
+.menu-list.show {
+    display: block;
+}
+
+.menu-list li {
+    margin: 10px 0;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu-list a:hover {
+    color: blueviolet;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: blueviolet;
+}
+
+
+#\31,
+#\32 {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+
+a[download] {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+a[download]:hover {
+    background-color: rgb(116, 31, 196);
+}
+
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+
+.bloc {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bloc h2 {
+    color: blueviolet;
+    margin-top: 0;
+}
+
+
+.bloc ul {
+    padding-left: 20px;
+}
+
+
+#contact p {
+    margin: 8px 0;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+
+form input {
+    margin-bottom: 15px;
+}
+
+form textarea {
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+
+#envoyer-mail {
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#envoyer-mail:hover {
+    background-color: rgb(116, 31, 196);
+}
+
+
+.btn-Retour {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+.btn-Retour:hover {
+    background-color: black;
+}
+
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 2px solid #ddd;
+}
+@media screen and (max-width: 600px) {
+    header strong {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .menu-btn {
+        float: none;
+    }
+
+    form label {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .menu-list {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+#submit {
+    display: block;
+    width: ;
+    margin: 20px auto;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+p  {
+    font-family: 'Times New Roman', Times, serif;
+}
